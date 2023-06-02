@@ -1,5 +1,5 @@
 #concatenar 
-nombre = "Diego"
+nombre = "Diego" 
 apellido = "Hernandez "
 
 print (nombre   + " " + apellido )
