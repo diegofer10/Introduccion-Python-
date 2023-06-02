@@ -1,0 +1,22 @@
+#concatenar 
+nombre = "Diego"
+apellido = "Hernandez "
+
+print (nombre   + " " + apellido )
+
+#Interpolar con f
+print(f"{nombre} {apellido}" )
+
+#Caracteres 
+texto = nombre + "-" + apellido
+print (texto)
+
+#Salto de Linea "\n"
+texto = nombre + "\n" + apellido
+print (texto)
+
+
+#Tabular "\t"
+texto = nombre + "\t" + apellido
+print (texto)
+

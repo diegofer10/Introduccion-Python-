@@ -1,0 +1,19 @@
+"""
+Ejercicio de Rango de velocidad permitida Edad de Trabajar 
+Si el automovil circula entre 50 y 80 esta en velocidad permitida caso contraro debe alertar velocidad maxima no permitida.
+
+"""
+velicidad_minima_permitida = 50 
+velicidad_maxima_permitida = 80
+
+velocidad = 81
+
+if velocidad >=0 and velocidad <= 49:
+    print (f"Velocidad fuera de rango: {velocidad} km/h")
+else: 
+    if  velocidad >=velicidad_minima_permitida and velocidad <= velicidad_maxima_permitida:
+        print (f"Velocidad Permitida {velocidad} km/h")
+    else: 
+        print (f"Exceso de Velocidad {velocidad} km/h")
+
+
