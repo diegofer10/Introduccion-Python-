@@ -1,0 +1,69 @@
+# Introducion a Python 
+# Variables y Tipos 
+
+
+
+#------------------------------------------
+#Tipos de Datos 
+nada = None
+cadena= "Hola Mundo"
+entero = 10
+flotante = 4.7
+boolean = True
+lista= [1,2,3,4,5,6,7,8,9,10]  # Coleccion de Datos 
+tupla = ("Valor 1","Valor 2","Valor 3") # Lista de datos que nocambia
+diccionario_datos = {
+            "usuario"  : "Admin",
+            "password" : "Admin",
+            "fecha_ingreso": "10/10/20"
+}
+
+
+print(nada)
+print(cadena)
+print(entero)
+print(flotante)
+print(type(flotante))
+print(type(boolean))
+print(lista)
+print(tupla)
+print(diccionario_datos)  
+
+
+#------------------------------------------
+#Variable varchar
+nombre = 'Diego'
+#Ejemplo int
+edad = 38
+#Ejemplo bool
+tiene_hijos = False
+#Ejemplo de Lista 
+hobbys = ['Programar', 'Jugar Futbol', 'Andar en Bicicleta']
+#Ejemplo Diccionario
+informacion = {
+    'nombre': 'diego',
+    'edad' : '38',
+    'tiene_hijos': 'False'
+    }
+
+# Imprimir los valores de las varibales 
+
+#Imprimir Nombre
+print('Mi nombre es:', nombre)
+#Edad
+print('Mi edad es:', edad)
+#Imprimir cantidad de letras del nombre
+print('Cantidad de caractreres del nombre:', len(nombre))
+
+#Imprimir 
+print('Informacion General : ', informacion)
+ 
+
+#Convertir Dato enero a string con STR
+#str(1234)
+#int(1234)
+#float(1234)
+
+usuario= "Admin"
+password= str(1234)
+print (  usuario + " -  " + password )
